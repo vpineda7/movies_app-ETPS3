@@ -1,0 +1,25 @@
+   44  doskey /history
+   45  /history
+   46  history
+   47  history > 19-03-22.txt
+   48  cat 19-0
+   49  cat "19-02-22.txt" 
+   50  cat 19-03-22.txt 
+   51  vim notas15-04-22.txt
+   52  vim notas15-04-22.txt 
+   53  ls -lt
+   54  cd fluteeapps/
+   55  code . -r
+   56  ls -ltr
+   57  cd ..
+   58  ls -ltr
+   59  ls -lt
+   60  conda
+   61  conda --info envs
+   62  git pull origin
+   63  ipconfig
+   64  ping google.com -t
+   65  git status 
+   66  git add . && git commit -m "se tiene funcional el login con pagina principal falta mostrar peliculas y demas funcionalidades" && git push origin master
+   67  git add . && git commit -m "se tiene funcional el login con pagina principal falta mostrar peliculas y demas funcionalidades" && git push origin master
+   68  history 25 >> 04-06-22.txt

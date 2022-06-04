@@ -35,14 +35,14 @@ class _SignUpPageState extends State<SignUpPage> {
         const Padding(
           padding: EdgeInsets.only(left: 18.0),
           child: Text(
-            'Sign Up',
+            'Registro',
             style: TextStyle(
                 color: Colors.black, fontSize: 56, fontWeight: FontWeight.bold),
           ),
         ),
         const Padding(
           padding: EdgeInsets.only(left: 18.0),
-          child: Text('Sign up your account'),
+          child: Text('Crear tu cuenta'),
         ),
         Container(
           margin: const EdgeInsets.only(left: 20, right: 20),
@@ -67,7 +67,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 child: TextField(
                   controller: emailController,
                   decoration: InputDecoration(
-                      hintText: "Email",
+                      hintText: "Correo",
                       prefixIcon: const Icon(
                         Icons.email,
                         color: Colors.deepOrangeAccent,
@@ -102,7 +102,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   controller: passwordController,
                   obscureText: true,
                   decoration: InputDecoration(
-                      hintText: "Password",
+                      hintText: "Contraseña",
                       prefixIcon: const Icon(
                         Icons.password_outlined,
                         color: Colors.deepOrangeAccent,
@@ -149,9 +149,9 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
               child: const Center(
                 child: Text(
-                  "Sign up",
+                  "Crear",
                   style: TextStyle(
-                      fontSize: 36,
+                      fontSize: 29,
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
@@ -165,17 +165,17 @@ class _SignUpPageState extends State<SignUpPage> {
         Center(
           child: RichText(
             text: TextSpan(
-                text: "Already have an account ",
+                text: "Ya tienes una cuenta ",
                 recognizer: TapGestureRecognizer()..onTap = () => Get.back(),
-                style: TextStyle(color: Colors.grey[500], fontSize: 20),
+                style: TextStyle(color: Colors.grey[500], fontSize: 17),
                 children: [
                    TextSpan(
                       recognizer: TapGestureRecognizer()
                         ..onTap = () => Get.to(() => LoginPage()),
-                      text: "Login",
+                      text: "Acceder",
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 20,
+                          fontSize: 17,
                           fontWeight: FontWeight.bold))
                 ]),
           ),

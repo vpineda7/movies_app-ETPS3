@@ -162,7 +162,7 @@ class _LoginPageState extends State<LoginPage> {
         Center(
           child: RichText(
             text: TextSpan(
-                text: "¿No tienes cuenta?",
+                text: "¿No tienes cuenta? ",
                 style: TextStyle(color: Colors.grey[500], fontSize: 17),
                 children: [
                   TextSpan(
