@@ -1,0 +1,10 @@
+   68  curl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"movies_app-ETPS3\"}"
+   69  echo $tokenGithub
+   70  curl -u vpineda7:$tokenGithub https://api.github.com/user/repos -d "{\"name\":\"movies_app-ETPS3\"}"
+   71  git remote add "https://github.com/vpineda7/movies_app-ETPS3"
+   72  git remote add origin "https://github.com/vpineda7/movies_app-ETPS3"
+   73  git remote -v
+   74  git status
+   75  git push origin master
+   76  history 10
+   77  history 10 >> 03-06-22.txt
