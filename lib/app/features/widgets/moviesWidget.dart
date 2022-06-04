@@ -2,7 +2,6 @@ import 'package:flutter_movies_app/app/features/login/controller/auth_controller
 import 'package:flutter/material.dart';
 import 'package:flutter_movies_app/app/features/models/movies.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
-import 'package:flutter_movies_app/app/features/login/view/login_page.dart';  
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
@@ -103,7 +102,8 @@ class _MoviesWidgetState extends State<MoviesWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,  
                         children: [
                         Text(movie.title),
-                        Text(movie.year)
+                        Text(movie.year),
+                        Text(movie.type)
                     ],),
                       ),
                   ),
