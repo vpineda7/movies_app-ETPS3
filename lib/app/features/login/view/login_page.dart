@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: TextField(
                   controller: emailController,
                   decoration: InputDecoration(
-                      hintText: "Email",
+                      hintText: "Correo",
                       hintStyle: TextStyle(color: Colors.grey),
                       prefixIcon: const Icon(
                         Icons.email,
@@ -98,7 +98,7 @@ class _LoginPageState extends State<LoginPage> {
                   controller: passwordController,
                   obscureText: true,
                   decoration: InputDecoration(
-                      hintText: "Password",
+                      hintText: "Contraseña",
                       hintStyle: const TextStyle(color: Colors.grey),
                       prefixIcon: const Icon(
                         Icons.password_outlined,
@@ -122,7 +122,7 @@ class _LoginPageState extends State<LoginPage> {
               Row(
                 children: [
                   Expanded(child: Container()),
-                  const Text('Forgot your password ?')
+                  const Text('¿Olvidó su contraseña?')
                 ],
               ),
               const SizedBox(
@@ -148,9 +148,9 @@ class _LoginPageState extends State<LoginPage> {
               ),
               child: const Center(
                 child: Text(
-                  "Sign in",
+                  "Acceder",
                   style: TextStyle(
-                      fontSize: 36,
+                      fontSize: 29,
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
@@ -162,16 +162,16 @@ class _LoginPageState extends State<LoginPage> {
         Center(
           child: RichText(
             text: TextSpan(
-                text: "Don't have an account ?",
-                style: TextStyle(color: Colors.grey[500], fontSize: 20),
+                text: "¿No tienes cuenta?",
+                style: TextStyle(color: Colors.grey[500], fontSize: 17),
                 children: [
                   TextSpan(
                       recognizer: TapGestureRecognizer()
                         ..onTap = () => Get.to(() => SignUpPage()),
-                      text: "Create",
+                      text: "Crear cuenta",
                       style: const TextStyle(
                           color: Colors.black,
-                          fontSize: 20,
+                          fontSize: 17,
                           fontWeight: FontWeight.bold))
                 ]),
           ),

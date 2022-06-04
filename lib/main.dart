@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Movie App',
+      debugShowCheckedModeBanner: false, //sale con debug
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
