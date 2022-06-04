@@ -38,13 +38,13 @@ class _LoginPageState extends State<LoginPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Hello',
+                'MovieSivar',
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 56,
                     fontWeight: FontWeight.bold),
               ),
-              const Text('Sign into your account'),
+              const Text('Ingresa con tu cuenta'),
               const SizedBox(
                 height: 50,
               ),
