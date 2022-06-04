@@ -8,3 +8,10 @@
    75  git push origin master
    76  history 10
    77  history 10 >> 03-06-22.txt
+flutter pub add http
+flutter pub add firebase_auth
+flutter pub add firebase_core
+flutter pub add get
+doskey /h > 04-06-22.TXT
+doskey /h > 03-06-22.txt
+doskey /h >>  03-06-22.txt
