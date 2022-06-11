@@ -23,8 +23,8 @@ class _App extends State< WelcomePage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Movies App",
+      debugShowCheckedModeBanner: false, //sale con debug
       home: Scaffold(
-        
         appBar: AppBar(
           title: Text("Movies"),
         ),
